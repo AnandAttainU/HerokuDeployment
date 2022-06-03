@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Heroku Deployment</h1>
+    <button id="takesnapshot">Take snapshot</button>
+    <script>
+        const takeSnapShot = function(){
+            console.log("Snapshot taken");
+        }
+        const btnElement = document.getElementById('takesnapshot');
+        btnElement.addEventListener('click', takeSnapShot);
+    </script>
 </body>
 </html>
